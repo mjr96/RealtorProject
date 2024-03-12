@@ -1,0 +1,40 @@
+{% extends "index.html" %}
+
+{% block title %}
+    Register
+{% endblock %}
+
+{% block main %}
+<div class="container text-center containerCredentials">
+    <div class="row">
+        <div class="col credentialForm">
+            <h1>Register</h1>
+            <p>Have an account already? <a href="/login">Sign in here!</a></p>
+            <form action="/login" method="post">
+                <div class="mb-3">
+                    <input autocomplete="off" autofocus class="form-control mx-auto w-auto" name="name" placeholder="Name" type="text">
+                </div>
+                <div class="mb-3">
+                    <input autocomplete="off" autofocus class="form-control mx-auto w-auto" name="email" placeholder="Email" type="email">
+                </div>
+                <div class="mb-3">
+                    <input class="form-control mx-auto w-auto" name="password" placeholder="Password" type="password">
+                </div>
+                <div class="mb-3">
+                    <input type="password" name="confirmation" class="form-control mx-auto w-auto" placeholder="Confirm Password">
+                </div>
+                <div class="form-check" id="checkbox">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault">
+                        I agree to the <a href="/termConditions">Terms and Conditions of Use</a> and to the <a href="/privacyPolicy">Privacy Policy</a>.
+                    </label>
+                  </div>
+                <button class="btn btn-primary logInRegisterButton" type="submit">Register</button>
+            </form>
+        </div>
+        <div class="col">
+            <img src="../../static/images/house-searching-rafiki.png" alt="" class="imgLoginRegister">
+        </div>
+    </div>
+</div>
+{% endblock %}

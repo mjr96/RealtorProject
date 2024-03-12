@@ -1,0 +1,11 @@
+#tutorialTitle{
+    text-align: center;
+    margin: 2em;
+}
+#warning{
+    background-color: rgb(190, 36, 36);
+    text-align: center;
+    color: white;
+    margin: 5em 20em;
+    padding: 2em 0;
+}

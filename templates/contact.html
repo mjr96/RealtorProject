@@ -1,0 +1,36 @@
+{% extends "index.html" %}
+
+{% block title %}
+    Contact
+{% endblock %}
+
+{% block main %}
+    <div class="container text-center divForm">
+        <form action="">
+            <h1>How can we help?</h1>
+            <p>Get in touch with us by completing the form below</p>
+            <div class="row">
+                <div class="col">
+                    <div class="mb-3">
+                        <input autocomplete="off" class="form-control mx-auto w-auto" name="name" placeholder="Name" type="text" size="30">
+                    </div>
+                    <div class="mb-3">
+                        <input autocomplete="off" class="form-control mx-auto w-auto" name="email" placeholder="Email" type="email" size="30">
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="mb-3">
+                        <input autocomplete="off" class="form-control mx-auto w-auto" name="phone" placeholder="Phone" type="tel" size="30">
+                    </div>
+                    <div class="mb-3">
+                        <input autocomplete="off" class="form-control mx-auto w-auto" name="subject" placeholder="Subject" type="text" size="30">
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <textarea name="message" id="messageContact" cols="76" rows="10" autocomplete="off" class="form-control mx-auto w-auto" placeholder="Enter your message here..."></textarea>
+                </div>
+            </div>
+            <button class="btn btn-primary contactButton" type="submit">Send a request</button>
+        </form>
+    </div>
+{% endblock %}

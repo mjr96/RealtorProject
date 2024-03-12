@@ -1,0 +1,23 @@
+/*Css information for the login and the register page*/
+.containerCredentials{
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.credentialForm{
+    padding: 5em;
+}
+#checkbox{
+    padding: 2em 6em 2em 6em;
+}
+
+.logInRegisterButton{
+    background-color: #448c74;
+}
+.logInRegisterButton:hover{
+    background-color: #016b46;
+}
+
+.imgLoginRegister{
+    width: 100%;
+}

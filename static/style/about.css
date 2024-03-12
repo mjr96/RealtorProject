@@ -1,0 +1,27 @@
+.blackBackground{
+    width: 100%;
+    height: 600px;
+    color: white;
+}
+.blackBackground h1{
+    font-size: 4em;
+    padding: 5% 20% 2% 20%;
+}
+#bulletPoints{
+    padding: 0 20%;
+}
+#bulletPoints span{
+    margin-right: 2em;
+}
+#bulletPoints span p{
+    margin-left: 1em;
+}
+#businessImg{
+    display: block;
+    width: 70%;
+    border-radius: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -200px;
+    margin-bottom: 100px;
+}

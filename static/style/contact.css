@@ -1,0 +1,36 @@
+/*information on the form for tyhe contact page*/
+.divForm{
+    background-color: #448c74;
+    margin: 100px auto;
+    width: 100%;
+    padding: 8em 15em;
+    border-radius: 50px;    
+}
+.divForm h1{
+    color: white;
+}
+.divForm p{
+    color: white;
+    margin: 20px 0 70px 0;
+}
+.divForm input{
+    background-color: transparent;
+    margin-bottom: 40px;
+    color: white;
+}
+.divForm input::placeholder{
+    color: white;
+}
+.divForm textarea{
+    background-color: transparent;
+    color: white;
+}
+.divForm textarea::placeholder{
+    color: white;
+}
+.contactButton{
+    background-color: #2C313C;
+}
+.contactButton:hover{
+    background-color: #000000;
+}   

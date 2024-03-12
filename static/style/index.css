@@ -1,0 +1,52 @@
+/*Edit the size of the logo that is being displayed in the nav bar*/
+#logo{
+    width: 100px;
+    height: 80px;
+}
+/*Information about the footer in order*/
+#footer{
+    width: 100%;
+}
+/*Information about the subscription form that will be displayed on all pages*/
+#footer #subscribe{
+    border-radius: 50px;
+    margin: 0 20em;
+    padding: 8em 15em;
+}
+#footer #subscribe h1{
+    color: white;
+    text-align: center;
+}
+#footer #subscribe p{
+    color: silver;
+    text-align: center;
+    padding: 1em 10em;
+}
+#footer #subscribe div{
+    padding: 0 10em;
+}
+#footer #subscribe button{
+    background-color: #448c74;
+    color: white;
+}
+#footer #subscribe button:hover{
+    background-color: #016b46;
+}
+/* Last info on the botton of the website that will display that all rights are reserved*/
+#footer #rights{
+    text-align: center;
+    color: silver;
+    margin: 30px 0;
+}
+#returnTop{
+    position: fixed;
+    bottom: -5;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+#returnTop img{
+    width: 30px;
+    height: 30px;
+    margin: 1px auto;
+}

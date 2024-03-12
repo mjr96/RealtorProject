@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}{% endblock %}</title>
+    <link rel="icon" href="../static/images/Building blocks-bro.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="/static/style/index.css">
+    <link rel="stylesheet" href="/static/style/login.css">
+    <link rel="stylesheet" href="/static/style/contact.css">
+    <link rel="stylesheet" href="/static/style/privacyAndTerms.css">
+    <link rel="stylesheet" href="/static/style/about.css">
+    <link rel="stylesheet" href="/static/style/tutorial.css">
+</head>
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="/"><img src="../../static/images/logo.png" alt="Logo" id="logo"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarColor02">
+                <ul class="navbar-nav me-auto">
+                  <li class="nav-item">
+                    <a class="nav-link" href="/">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="/buyers">For Buyers</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="/sellers">For Sellers</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="/realtors">For Realtors</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">About</a>
+                    <div class="dropdown-menu">
+                      <a class="dropdown-item" href="/about">About Us</a>
+                      <a class="dropdown-item" href="/tutorial">Tutorial</a>
+                      <a class="dropdown-item" href="/termConditions">Terms and Conditions of Use</a>
+                      <a class="dropdown-item" href="/privacyPolicy">Privacy Policy</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="/contact">Contact</a>
+                    </div>
+                  </li>
+                </ul>
+                <div class="d-flex">
+                  <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/login">Login</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/register">Register</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </nav>
+    </header>
+
+    {% block main %}{% endblock %}
+
+    <footer id="footer">
+      <div class="bg-dark" id="subscribe">
+        <h1>Subscribe to Newsletter</h1>
+        <p>Subscribe to our newsletter to receive early discount offers, new info and updates.</p>
+        <form action="">
+          <div class="input-group mb-3">
+            <input type="email" class="form-control" placeholder="Enter your email">
+            <button class="btn" type="button">Subscribe</button>
+          </div>
+        </form>
+      </div>
+      <div class="modal-body">
+        <p id="rights">Developed by <a target="_blank" href="https://www.linkedin.com/in/mmoj96/">Marcio Sherbow</a> - &#169; All Rights reserved.</p>
+      </div>
+      <div id="returnTop" class="bg-dark">
+          <a href=""><img class="img-fluid" src="/static/images/arrowUp.png" alt="arrow pointing up"></a>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
