@@ -1,7 +1,16 @@
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
 /*Edit the size of the logo that is being displayed in the nav bar*/
 #logo{
     width: 100px;
     height: 80px;
+}
+#spaceHeader{
+    height: 100px;
 }
 /*Information about the footer in order*/
 #footer{
