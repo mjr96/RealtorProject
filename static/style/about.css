@@ -25,3 +25,22 @@
     margin-top: -200px;
     margin-bottom: 100px;
 }
+.smallHeading{
+    padding: 0 15%;
+    color: #576071;
+}
+.aboutHeading{
+    padding: 0 15%;
+    font-size: 3em;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+.item{
+    display: inline-block;
+}
+#whatWeDoDescription{
+    padding: 0 10em;
+    float: right;
+}
