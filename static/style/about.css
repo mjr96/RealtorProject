@@ -40,7 +40,11 @@
 .item{
     display: inline-block;
 }
+#whatWeDoHeading{
+    padding: 0;
+    margin: 0;
+    width: 600px;
+}
 #whatWeDoDescription{
-    padding: 0 10em;
-    float: right;
+    width: 500px;
 }
