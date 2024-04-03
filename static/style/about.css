@@ -36,6 +36,7 @@
 .container{
     display: flex;
     justify-content: space-between;
+    margin-bottom: 200px;
 }
 .item{
     display: inline-block;
@@ -47,4 +48,35 @@
 }
 #whatWeDoDescription{
     width: 500px;
+}
+.missionPoints{
+    width: 400px;
+    border-radius: 30px;
+    padding: 1em;
+    background-color: #576071;
+}
+.missionIMG{
+    width: 20px;
+}
+.missionPoints h3{
+    margin: 20px 0;
+}
+#howWeWork{
+    background-image: url(https://images.pexels.com/photos/1595385/pexels-photo-1595385.jpeg);
+    background-position: center;
+    border-radius: 100%;
+    width: 500px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#howWeWork p{
+    color: white;
+    font-weight: lighter;
+    text-align: center;
+}
+#howWeWork h2{
+    color: white;
+    text-align: center;
 }
